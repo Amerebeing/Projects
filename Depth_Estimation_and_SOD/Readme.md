@@ -28,6 +28,7 @@ Generates an n x n DCT matrix.
     [mesh_cols, mesh_rows] = np.meshgrid(np.linspace(0, n-1, n), np.linspace(0, n-1, n))
     dct_matrix = np.sqrt(2/n) * np.cos(np.pi * np.multiply((2 * mesh_cols + 1), mesh_rows) / (2*n))
     dct_matrix[0, :] = dct_matrix[0, :] / np.sqrt(2)
-    return dct_matrix
+    return dct_matrix ```
 
+hgvfj
 
