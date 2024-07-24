@@ -22,6 +22,8 @@ The main function that generates the sharpness map of the input image.
 
 ```python
 def sharpness_map(img):
+dctmtx(n)
+Generates an n x n DCT matrix.
     def dctmtx(n):
     [mesh_cols, mesh_rows] = np.meshgrid(np.linspace(0, n-1, n), np.linspace(0, n-1, n))
     dct_matrix = np.sqrt(2/n) * np.cos(np.pi * np.multiply((2 * mesh_cols + 1), mesh_rows) / (2*n))
