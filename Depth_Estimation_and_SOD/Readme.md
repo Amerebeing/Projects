@@ -12,7 +12,7 @@ The process involves the following steps:
 5. **High-Frequency Component Analysis**: High-frequency components of the DCT are analyzed to estimate local sharpness.
 6. **Edge-Aware Filtering**: An edge-aware recursive filter is applied to smooth the sharpness map while preserving edges.
 
-## Code Explanation
+<!-- ## Code Explanation
 
 ### Functions
 
@@ -30,5 +30,5 @@ Generates an n x n DCT matrix.
     dct_matrix[0, :] = dct_matrix[0, :] / np.sqrt(2)
     return dct_matrix
 ```
-jhdiudfhia
+jhdiudfhia -->
 
