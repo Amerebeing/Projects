@@ -13,6 +13,7 @@ def testCone(RotatedCone, Transobject):
     res = np.matmul(RotatedCone,test)
     fgfbb=5
 
+# plotSutface is not directly used in this part of the code but can be used to visualize the surfaces of the cones or ellipses involved.
 def plotSutface(Eqn):
     X = np.arange(-10,10,0.025)
     Y = np.arange(-10,10,0.025)
